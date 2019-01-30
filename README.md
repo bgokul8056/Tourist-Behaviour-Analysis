@@ -15,7 +15,7 @@
 	2.2 Create a Python 3.5 environment and install the requirements using the pip install command
 3.CONTENTS OF THE FOLDER
 	3.1 IpythonNotebooks - Ipynb notebooks for refining the dataset, textual metadata processing , geographical data clustering, region wise trend estimation , seasonal analysis.
-	3.2 Results - Intermediate results of the implementation for each step in their respective folders and also the San Francisco, US , UK, India, AUS, Europe, Africa regions record used in the implementation.
+	3.2 Results - Intermediate results of the implementation for each step in their respective folders and also San Francisco, US , UK, India, AUS, Europe, Africa regions record used in the implementation.
 4. DATASET
 		4.1	The dataset used for this work is a subset of the YFCC dataset which can be obtained from "Yahoo Webscope” and the web address http://webscope.sandbox.yahoo.com	
 		4.2 	Records for SanFrancisco (for first two steps), and regions like US, UK, India, Europe ( for the final step) is obtained by setting the respective geographical coordinates in "RefineDataset.ipynb"
