@@ -19,16 +19,16 @@ I am using Anaconda Environment for a much easier user experience compared to th
 2) Create a new Python environment and install the required packages using the pip/conda install command.
 
 ## 3. DATASET
-1) The dataset used for this work is a small subset of the YFCC dataset which can be obtained from "Yahoo Webscope” and the web address http://webscope.sandbox.yahoo.com	
+1) The dataset used for this work is a small subset of the YFCC dataset which can be obtained from "Yahoo Webscope” (http://webscope.sandbox.yahoo.com)	
 
-2) The Records pertaining to San Francisco region(for first two steps), and other regions like India, United States, United Kingdom, Europe ( for the final step) are obtained by setting their respective geographical coordinates in `RefineDataset.ipynb`
+2) The Records pertaining to the San Francisco region and other regions like India, United States, United Kingdom, Europe are obtained by setting their respective geographical coordinates in `RefineDataset.ipynb`
 
 ## 4. CODE Folder
 This folder contains the ipython notebooks for each individual task:
 1. Refining the dataset
-   - `RefineDataset.ipynb` is used to set the geographical coordinates to define a particular region for data extraction.
+   - `RefineDataset.ipynb` is used to set the geographical coordinates to extract data from a particular region.
 2. Textual metadata processing 
-   - `Text_Metadata_Proc.ipynb` is used to eliminate unnecessary characters and stopwords, stem words into root form, and extract the Photo ID, User ID, Latitude and Longitude from the data. 
+   - `Text_Metadata_Proc.ipynb` is used to eliminate unnecessary characters and stopwords, and to stem words into their root form.
 3. Geographical data clustering
    - `GeoClustering_Exemplar.ipynb` is used to cluster popular locations together using HDBSCAN algorithm.
 4. Region wise trend estimation 
