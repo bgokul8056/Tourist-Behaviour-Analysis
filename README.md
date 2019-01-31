@@ -26,9 +26,9 @@ I am using Anaconda Environment for a much easier user experience compared to th
 ## 4. CODE Folder
 This folder contains the ipython notebooks for each individual task:
 1. Refining the dataset
-   - `RefineDataset.ipynb` is used to clean the dataset and store it in a pandas DataFrame.
+   - `RefineDataset.ipynb` is used to set the geographical coordinates to define a particular region for data extraction.
 2. Textual metadata processing 
-   - `Text_Metadata_Proc.ipynb` is used to eliminate unnecessary characters and stopwords, stem words into root form, and extract the Photo ID, User ID, Latitude and Longitude from the previous Dataframe. 
+   - `Text_Metadata_Proc.ipynb` is used to eliminate unnecessary characters and stopwords, stem words into root form, and extract the Photo ID, User ID, Latitude and Longitude from the data. 
 3. Geographical data clustering
    - `GeoClustering_Exemplar.ipynb` is used to cluster popular locations together using HDBSCAN algorithm.
 4. Region wise trend estimation 
@@ -37,15 +37,7 @@ This folder contains the ipython notebooks for each individual task:
    - `Seasonal_SF.ipynb` is used to analyze the seasonal trend of tourist arrival for a particular region.
 
 
-## 5. RESULTS Folder
-This folder contains the results obtained from each step. This can be used to better visualise the output and gain a better understanding of what is really happening.
-
-
-## 6. REFERENCES Folder
-This folder contains some research papers which were used as references in the scope of this project.
-
-
-## 7. IMPLEMENTATION
+## 5. IMPLEMENTATION
 1) The first step, "Textual metadata processing" is performed in `Text_Metadata_Proc.ipynb` where the filtered San Francisco records `Filtered1M.csv` is fed as input.
 
 2) The threshold value for support to perform filtering has to be set within the notebook and the filtered records are stored in the file  `TP_op1M.csv`.
@@ -55,3 +47,9 @@ This folder contains some research papers which were used as references in the s
 4) "Region wise trend estimation" for various regions is performed in `Trend-Master File-fr any Region.ipynb`. The results of the implementation is recorded and stored in the file `Trend Analysis_final-Sheet1.pdf` in Results -> TrendEstimation.
 
 5) "Seasonal trend analysis" is performed on the same San Francisco records which was fed as input to the first step. Any other region can also be given as input to `Seasonal_SF.ipynb` notebook and the output can be viewed as images in the notebook. The results of the implementation is recorded and stored in Results -> TrendEstimation -> SeasonalTrend file.
+
+## 6. RESULTS Folder
+This folder contains the results obtained from each step. This can be used to better visualise the output and gain a better understanding of what is really happening.
+
+## 7. REFERENCES Folder
+This folder contains some research papers which were used as references in the scope of this project.
