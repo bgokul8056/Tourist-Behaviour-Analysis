@@ -46,12 +46,12 @@ This folder contains some research papers which were used as references in the s
 
 
 ## 7. IMPLEMENTATION
-1) The first step, textual metadata processing is performed in `Text_Metadata_Proc.ipynb` where the filtered SanFrancisco records `Filtered1M.csv` is fed as input.
+1) The first step, "Textual metadata processing" is performed in `Text_Metadata_Proc.ipynb` where the filtered San Francisco records `Filtered1M.csv` is fed as input.
 
-2) The threshold value for support to perform filtering has to be set within the notebook and filtered records are stored in a file named `TP_op1M.csv` which is the result of the first step.
+2) The threshold value for support to perform filtering has to be set within the notebook and the filtered records are stored in the file  `TP_op1M.csv`.
 
-3) This `TP_op1M.csv` is fed as input to second step which is the geographical data clustering and exemplar identification in the `GeoClustering_Exemplar.ipynb`. The paramaters for the clustering can be altered within the ipython notebook and the result of the clustering is displayed as images within the notebook. The geographical values for exemplars can also be viewed within the notebook.
+3) This `TP_op1M.csv` is now fed as input to the second step,"Geographical data clustering" in `GeoClustering_Exemplar.ipynb`. The paramaters for the clustering can be altered in the ipython notebook and the result of the clustering is displayed as images within the notebook. The geographical values for exemplars can also be viewed within the notebook.
 
-4) The region wise trend estimation for various regions is the file `Trend-Master File-fr any Region.ipynb`. The path for the input file is can be altered for respective regions within the notebook.The results of the implementation is recorded and stored in the file `Trend Analysis_final-Sheet1.pdf` in Results -> TrendEstimation.
+4) "Region wise trend estimation" for various regions is performed in `Trend-Master File-fr any Region.ipynb`. The results of the implementation is recorded and stored in the file `Trend Analysis_final-Sheet1.pdf` in Results -> TrendEstimation.
 
-5) The Seasonal trend analysis is performed on the same SanFrancisco records which is fed as input in the first step. Any other city can also be given as input whose paths can be changed in the `Seasonal_SF.ipynb` notebook and output can be viewed as images within the notebook. The results of the implementation is recorded and stored in Results -> TrendEstimation -> SeasonalTrend file.
+5) "Seasonal trend analysis" is performed on the same San Francisco records which was fed as input to the first step. Any other region can also be given as input to `Seasonal_SF.ipynb` notebook and the output can be viewed as images in the notebook. The results of the implementation is recorded and stored in Results -> TrendEstimation -> SeasonalTrend file.
