@@ -50,4 +50,4 @@ This folder contains the ipython notebooks for each individual task:
 
 ## 6. RESULTS Folder
 This folder contains the results obtained from each step. This can be used to better visualise the output and gain a better understanding of what is really happening.
-
+1)InputRecords
