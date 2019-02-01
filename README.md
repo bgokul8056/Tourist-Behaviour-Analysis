@@ -50,4 +50,7 @@ This folder contains the ipython notebooks for each individual task:
 
 ## 6. RESULTS Folder
 This folder contains the results obtained from each step. This can be used to better visualise the output and gain a better understanding of what is really happening.
-1)InputRecords
+
+1)InputRecords - Contains the `Filtered1M.csv` which is given as input for the Textual metadata processing step. This file 
+
+2)TextualMetadataProcessing - Contains `TP_op1M.csv` which is the output of Textual metadata processing.
