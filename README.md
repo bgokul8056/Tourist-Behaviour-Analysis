@@ -44,13 +44,17 @@ This folder contains the ipython notebooks for each individual task:
 
 3) This `TP_op1M.csv` is now fed as input to the second step,"Geographical data clustering" in `GeoClustering_Exemplar.ipynb`. The paramaters for the clustering can be altered in the ipython notebook and the result of the clustering is displayed as images within the notebook. The geographical values for exemplars can also be viewed within the notebook.
 
-4) "Region wise trend estimation" for various regions is performed in `Trend-Master File-fr any Region.ipynb`. The results of the implementation is recorded and stored in the file `Trend Analysis_final-Sheet1.pdf` in Results -> TrendEstimation.
+4) "Region wise trend estimation" for various regions is performed in `Trend-Master File-fr any Region.ipynb`. The results of the implementation is recorded and stored in the file `Trend Analysis.pdf` in Results -> TrendEstimation.
 
 5) "Seasonal trend analysis" is performed on the same San Francisco records which was fed as input to the first step. Any other region can also be given as input to `Seasonal_SF.ipynb` notebook and the output can be viewed as images in the notebook. The results of the implementation is recorded and stored in Results -> TrendEstimation -> SeasonalTrend file.
 
 ## 6. RESULTS Folder
 This folder contains the results obtained from each step. This can be used to better visualise the output and gain a better understanding of what is really happening.
 
-1)InputRecords - Contains the `Filtered1M.csv` which is given as input for the Textual metadata processing step. This file 
+1)InputRecords - Contains the `Filtered1M.csv` which is given as input for the Textual metadata processing step. `Filtered1M.csv` is obtained by extracting 1 million records from the YFCC Dataset using a python script.
 
 2)TextualMetadataProcessing - Contains `TP_op1M.csv` which is the output of Textual metadata processing.
+
+3)GeographicalDataClustering - Contains images which show cluster formation.
+
+4)TrendEstimation - Contains several CSV files for several regions for which the trend has to be estimated. An analysis was performed on these regions and has been documented in `Trend Analysis.pdf`. Another folder titled 'SeasonalTrend' contains the seasonal trend analysis of the San Francisco region.
