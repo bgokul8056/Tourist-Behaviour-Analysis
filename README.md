@@ -51,5 +51,3 @@ This folder contains the ipython notebooks for each individual task:
 ## 6. RESULTS Folder
 This folder contains the results obtained from each step. This can be used to better visualise the output and gain a better understanding of what is really happening.
 
-## 7. REFERENCES Folder
-This folder contains some research papers which were used as references in the scope of this project.
