@@ -48,6 +48,11 @@ This folder contains the ipython notebooks for each individual task:
 
 5) "Seasonal trend analysis" is performed on the same San Francisco records which was fed as input to the first step. Any other region can also be given as input to `Seasonal_SF.ipynb` notebook and the output can be viewed as images in the notebook. The results of the implementation is recorded and stored in Results -> TrendEstimation -> SeasonalTrend file.
 
+The following image shows the architecture of the proposed system.
+
+
+
+
 ## 6. RESULTS Folder
 This folder contains the results obtained from each step. This can be used to better visualise the output and gain a better understanding of what is really happening.
 
