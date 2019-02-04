@@ -50,7 +50,7 @@ This folder contains the ipython notebooks for each individual task:
 
 The following image shows the architecture of the proposed system.
 
-
+![Architecture]https://github.com/bgokul8056/Tourist-Behaviour-Analysis/blob/master/Results/arch_img.PNG
 
 
 ## 6. RESULTS Folder
