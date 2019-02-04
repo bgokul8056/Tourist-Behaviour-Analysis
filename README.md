@@ -23,7 +23,7 @@ I am using Anaconda Environment for a much easier user experience compared to th
 
 2) The Records pertaining to the San Francisco region and other regions like India, United States, United Kingdom, Europe are obtained by setting their respective geographical coordinates in `RefineDataset.ipynb`
 
-## 4. CODE Folder
+## 4. Task Folder
 This folder contains the ipython notebooks for each individual task:
 1. Refining the dataset
    - `RefineDataset.ipynb` is used to set the geographical coordinates to extract data from a particular region.
