@@ -30,7 +30,7 @@ This folder contains the ipython notebooks for each individual task:
 2. Textual metadata processing 
    - `Text_Metadata_Proc.ipynb` is used to eliminate unnecessary characters and stopwords, and to stem words into their root form.
 3. Geographical data clustering
-   - `GeoClustering_Exemplar.ipynb` is used to cluster popular locations together using HDBSCAN algorithm.
+   - `GeoClustering_Exemplar.ipynb` is used to cluster popular locations together using HDBSCAN algorithm.(https://hdbscan.readthedocs.io/en/latest/index.html)
 4. Region wise trend estimation 
    - `Trend-Master File-fr any Region.ipynb` is used to estimate the trend of tourist arrival for a particular region.
 5. Seasonal Trend Analysis
